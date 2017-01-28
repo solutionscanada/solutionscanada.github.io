@@ -1,0 +1,24 @@
+title: "Solutions Canada"
+header-img: "img/map_clusters_hi_caption.jpg"
+email: "learn@insightscanada.org"
+url: "http://insightscanada.org/"
+description: "Solutions Canada -- Mathematical sciences talent helping business find solutions. Solutions Canada is a collaborative effort led by Canada's mathematical and statistical sciences institutes."
+author: "James Colliander"
+
+include: ['_pages']
+permalink: /:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard-wrap: false
+
+relative_permalinks: false
+
+#gems: ['jekyll-less']
+
+assets:
+  sources:
+   - _assets/fonts
+   - _assets/js
+   - _assets/css

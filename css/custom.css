@@ -1,0 +1,20 @@
+@media (min-width: 768px)
+.navbar-default {
+    background-color: black;
+}
+
+.bg-primary.odd {
+    background-color: white;
+    color: black;
+}
+
+.bg-primary.even {
+    background-color: black;
+    color: white;
+}
+aside.bg-primary.odd {
+    background-color: #a6228f;
+}
+p {
+    font-weight: 200;
+}

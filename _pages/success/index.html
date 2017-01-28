@@ -1,0 +1,26 @@
+---
+title: Insights Canada
+layout: success
+permalink: /success/
+---
+
+{% for post in site.categories.success %}
+<section class="bg-primary {% cycle 'odd', 'even' %}" id="{{post.shorttitle}}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                {{ post.content }}
+            </div>
+        </div>
+    </div>
+</section>
+{% endfor %}
+
+{% assign nposts = site.categories.success | size | modulo:2 %}
+<aside class="bg-primary {% if nposts == 0 %}odd{% else %}even{% endif %}">
+    <div class="container text-center">
+        <div class="call-to-action">
+            <a href="/#" class="btn btn-default btn-xl">Find Solutions.</a>
+        </div>
+    </div>
+</aside>
